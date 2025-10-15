@@ -1,9 +1,8 @@
-# Ephys‑Jupyter (Simple README)
+# Ephys‑Jupyter
 
 A small, reproducible **Jupyter** workflow for extracellular electrophysiology (Neuropixels / SpikeGLX).
 It covers **Preprocessing → Sorting (Kilosort4 via SpikeInterface) → Quality metrics → Export to Phy**
 
----
 
 ## Features
 
@@ -13,14 +12,12 @@ It covers **Preprocessing → Sorting (Kilosort4 via SpikeInterface) → Quality
 * **Export that works**: ships Phy files with **binary** so single‑spike waveforms can be viewed.
 
 
----
 
 ## Requirements
 * Python **3.9+** (Conda recommended)
 * **SpikeInterface**, **Phy**
 
 
----
 
 ## What this code does (in plain words)
 
@@ -30,14 +27,12 @@ It covers **Preprocessing → Sorting (Kilosort4 via SpikeInterface) → Quality
 * **Computes** basic quality metrics (presence ratio, amplitude cutoff, ISI violation).
 * **Exports** all files needed by **Phy**, **including binary** for per‑spike waveforms.
 
----
 
 ## Notes
 
 * If Phy shows only average waveforms and says files are missing, make sure you exported with `copy_binary=True` and did not move files.
 * Keep versions pinned for reproducibility.
 
----
 
 ## License
 
