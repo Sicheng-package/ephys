@@ -22,7 +22,7 @@ It covers **Preprocessing → Sorting (Kilosort4 via SpikeInterface) → Quality
 ## What this code does (in plain words)
 
 * **Reads** SpikeGLX AP data.
-* **Filters** 300–6000 Hz and applies a **global reference**.
+* **Filters** 300 Hz and applies a **global reference**.
 * **Sorts** spikes with **Kilosort4** (via SpikeInterface).
 * **Computes** basic quality metrics (presence ratio, amplitude cutoff, ISI violation).
 * **Exports** all files needed by **Phy**, **including binary** for per‑spike waveforms.
