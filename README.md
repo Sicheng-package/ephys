@@ -16,6 +16,7 @@ It covers **Preprocessing → Sorting (Kilosort4 via SpikeInterface) → Quality
 ## Requirements
 * Python **3.9+** (Conda recommended)
 * **SpikeInterface**, **Phy**
+* All packages are exported in the requirements.yml
 
 
 
